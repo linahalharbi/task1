@@ -1,0 +1,9 @@
+the materials 
+2 servo motors 
+arduino uno 
+board 
+
+the connection of the circuit as follow : 
+the positive pin in servo to 5v of arduino uno 
+the negative pin in servo to GND pin of arduino uno 
+the pulse pin in servo to D9 pin of arduino uno 
