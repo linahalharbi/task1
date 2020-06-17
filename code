@@ -1,0 +1,27 @@
+here is the code for 2 servo motors controlled by urduino uno 
+ 
+ #include <Servo.h>
+
+Servo  myservo; // name
+int position =0; //declare position 
+void setup(){
+  Serial.begin(9600);
+  myservo.attach(9); // attach the servo to. pin 9
+}
+void loop(){
+  if (position =0);{ // first postion is to go 0 
+  myservo.write(position); // tell the servo to go position 0
+  
+  delay(1000); // wait 1000ms for the servo to reach this position 0
+}
+ if (position =90);{// second postion is to go 90 
+  myservo.write(position);//tell the servo to go position 90
+  
+  delay(1000);// wait 1000ms for the servo to reach this position 90
+} 
+  if (position =180);{// second postion is to go 180 
+  myservo.write(position);//tell the servo to go position 180
+  // wait 1000ms for the servo to reach this position 180
+  delay(1000);
+}
+}
